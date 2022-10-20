@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import City, ProgrammingLanguage
 
-# Register your models here.
+admin.site.register([City, ProgrammingLanguage])
